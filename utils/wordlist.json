@@ -1,0 +1,2020 @@
+{
+  "wordlist": {
+    "categories": {
+      "Jedzenie": [
+        {
+          "haslo": "pizza",
+          "hint": "okrągłe"
+        },
+        {
+          "haslo": "burger",
+          "hint": "piętrowe"
+        },
+        {
+          "haslo": "sushi",
+          "hint": "surowe"
+        },
+        {
+          "haslo": "pierogi",
+          "hint": "nadziewane"
+        },
+        {
+          "haslo": "makaron",
+          "hint": "mączne"
+        },
+        {
+          "haslo": "kebab",
+          "hint": "zawijane"
+        },
+        {
+          "haslo": "zupa",
+          "hint": "płynne"
+        },
+        {
+          "haslo": "lody",
+          "hint": "mrożone"
+        },
+        {
+          "haslo": "chleb",
+          "hint": "pieczone"
+        },
+        {
+          "haslo": "ser",
+          "hint": "nabiał"
+        },
+        {
+          "haslo": "jajko",
+          "hint": "skorupka"
+        },
+        {
+          "haslo": "kurczak",
+          "hint": "drób"
+        },
+        {
+          "haslo": "wołowina",
+          "hint": "czerwone"
+        },
+        {
+          "haslo": "ryba",
+          "hint": "wodne"
+        },
+        {
+          "haslo": "ryż",
+          "hint": "sypkie"
+        },
+        {
+          "haslo": "naleśniki",
+          "hint": "smażone"
+        },
+        {
+          "haslo": "gołąbki",
+          "hint": "kapusta"
+        },
+        {
+          "haslo": "pączek",
+          "hint": "tłuste"
+        },
+        {
+          "haslo": "ciasto",
+          "hint": "słodkie"
+        },
+        {
+          "haslo": "czekolada",
+          "hint": "tabliczka"
+        },
+        {
+          "haslo": "jabłko",
+          "hint": "owoc"
+        },
+        {
+          "haslo": "banan",
+          "hint": "zakrzywione"
+        },
+        {
+          "haslo": "truskawki",
+          "hint": "czerwone"
+        },
+        {
+          "haslo": "pomarańcza",
+          "hint": "cytrus"
+        },
+        {
+          "haslo": "arbuz",
+          "hint": "pestki"
+        },
+        {
+          "haslo": "gruszka",
+          "hint": "kształt"
+        },
+        {
+          "haslo": "marchew",
+          "hint": "korzeń"
+        },
+        {
+          "haslo": "ziemniaki",
+          "hint": "bulwa"
+        },
+        {
+          "haslo": "ogórek",
+          "hint": "zielone"
+        },
+        {
+          "haslo": "pomidor",
+          "hint": "warzywo"
+        },
+        {
+          "haslo": "papryka",
+          "hint": "puste"
+        },
+        {
+          "haslo": "kapusta",
+          "hint": "liście"
+        },
+        {
+          "haslo": "fasola",
+          "hint": "strączkowe"
+        },
+        {
+          "haslo": "groch",
+          "hint": "kulki"
+        },
+        {
+          "haslo": "miód",
+          "hint": "lepkie"
+        },
+        {
+          "haslo": "masło",
+          "hint": "tłuszcz"
+        },
+        {
+          "haslo": "mleko",
+          "hint": "białe"
+        },
+        {
+          "haslo": "jogurt",
+          "hint": "łyżeczka"
+        },
+        {
+          "haslo": "sernik",
+          "hint": "twaróg"
+        },
+        {
+          "haslo": "frytki",
+          "hint": "paski"
+        },
+        {
+          "haslo": "hamburger",
+          "hint": "bułka"
+        },
+        {
+          "haslo": "tortilla",
+          "hint": "placek"
+        },
+        {
+          "haslo": "lasagne",
+          "hint": "warstwy"
+        },
+        {
+          "haslo": "risotto",
+          "hint": "ziarna"
+        },
+        {
+          "haslo": "gulasz",
+          "hint": "sos"
+        },
+        {
+          "haslo": "bigos",
+          "hint": "tradycyjne"
+        },
+        {
+          "haslo": "kiszka",
+          "hint": "ciemne"
+        },
+        {
+          "haslo": "placki",
+          "hint": "tarcie"
+        }
+      ],
+      "Zwierzęta": [
+        {
+          "haslo": "pies",
+          "hint": "wierny"
+        },
+        {
+          "haslo": "kot",
+          "hint": "mruczy"
+        },
+        {
+          "haslo": "słoń",
+          "hint": "trąba"
+        },
+        {
+          "haslo": "lew",
+          "hint": "grzywa"
+        },
+        {
+          "haslo": "tygrys",
+          "hint": "paski"
+        },
+        {
+          "haslo": "żaba",
+          "hint": "skacze"
+        },
+        {
+          "haslo": "koń",
+          "hint": "kopyta"
+        },
+        {
+          "haslo": "krowa",
+          "hint": "rogatizna"
+        },
+        {
+          "haslo": "świnia",
+          "hint": "ryjek"
+        },
+        {
+          "haslo": "owca",
+          "hint": "wełna"
+        },
+        {
+          "haslo": "koza",
+          "hint": "broda"
+        },
+        {
+          "haslo": "kurczak",
+          "hint": "pisklę"
+        },
+        {
+          "haslo": "kura",
+          "hint": "ptak"
+        },
+        {
+          "haslo": "kaczka",
+          "hint": "dziobate"
+        },
+        {
+          "haslo": "gęś",
+          "hint": "pierzaste"
+        },
+        {
+          "haslo": "orzeł",
+          "hint": "drapieżne"
+        },
+        {
+          "haslo": "sowa",
+          "hint": "mądra"
+        },
+        {
+          "haslo": "wilk",
+          "hint": "stado"
+        },
+        {
+          "haslo": "lis",
+          "hint": "rudy"
+        },
+        {
+          "haslo": "niedźwiedź",
+          "hint": "futro"
+        },
+        {
+          "haslo": "zebra",
+          "hint": "afrykańskie"
+        },
+        {
+          "haslo": "żyrafa",
+          "hint": "wysokie"
+        },
+        {
+          "haslo": "hipopotam",
+          "hint": "gruboskórne"
+        },
+        {
+          "haslo": "kangur",
+          "hint": "torba"
+        },
+        {
+          "haslo": "rekin",
+          "hint": "płetwa"
+        },
+        {
+          "haslo": "delfin",
+          "hint": "ssak"
+        },
+        {
+          "haslo": "wieloryb",
+          "hint": "ogromne"
+        },
+        {
+          "haslo": "żółw",
+          "hint": "pancerz"
+        },
+        {
+          "haslo": "jaszczurka",
+          "hint": "ogon"
+        },
+        {
+          "haslo": "wąż",
+          "hint": "beznogie"
+        },
+        {
+          "haslo": "pająk",
+          "hint": "sieć"
+        },
+        {
+          "haslo": "mrówka",
+          "hint": "pracowita"
+        },
+        {
+          "haslo": "pszczoła",
+          "hint": "owad"
+        },
+        {
+          "haslo": "motyl",
+          "hint": "skrzydła"
+        },
+        {
+          "haslo": "jeleń",
+          "hint": "poroże"
+        },
+        {
+          "haslo": "łosoś",
+          "hint": "płynie"
+        },
+        {
+          "haslo": "pstrąg",
+          "hint": "łuski"
+        },
+        {
+          "haslo": "królik",
+          "hint": "uszy"
+        },
+        {
+          "haslo": "chomik",
+          "hint": "gryzoń"
+        },
+        {
+          "haslo": "mysz",
+          "hint": "małe"
+        },
+        {
+          "haslo": "ryś",
+          "hint": "pędzle"
+        },
+        {
+          "haslo": "borsuk",
+          "hint": "nora"
+        },
+        {
+          "haslo": "jeż",
+          "hint": "kolce"
+        },
+        {
+          "haslo": "krokodyl",
+          "hint": "paszcza"
+        },
+        {
+          "haslo": "pingwin",
+          "hint": "nielot"
+        },
+        {
+          "haslo": "flaming",
+          "hint": "różowe"
+        },
+        {
+          "haslo": "papuga",
+          "hint": "mówi"
+        },
+        {
+          "haslo": "paw",
+          "hint": "pióra"
+        },
+        {
+          "haslo": "bocian",
+          "hint": "gniazdo"
+        },
+        {
+          "haslo": "orzeł biały",
+          "hint": "symbol"
+        }
+      ],
+      "Kraje": [
+        {
+          "haslo": "Polska",
+          "hint": "Europa"
+        },
+        {
+          "haslo": "Niemcy",
+          "hint": "sąsiad"
+        },
+        {
+          "haslo": "Francja",
+          "hint": "wieża"
+        },
+        {
+          "haslo": "Włochy",
+          "hint": "but"
+        },
+        {
+          "haslo": "Hiszpania",
+          "hint": "półwysep"
+        },
+        {
+          "haslo": "Portugalia",
+          "hint": "zachód"
+        },
+        {
+          "haslo": "Czechy",
+          "hint": "południe"
+        },
+        {
+          "haslo": "Słowacja",
+          "hint": "góry"
+        },
+        {
+          "haslo": "Węgry",
+          "hint": "bratanki"
+        },
+        {
+          "haslo": "Austria",
+          "hint": "Alpy"
+        },
+        {
+          "haslo": "Szwajcaria",
+          "hint": "neutralność"
+        },
+        {
+          "haslo": "Holandia",
+          "hint": "rowery"
+        },
+        {
+          "haslo": "Belgia",
+          "hint": "czekolada"
+        },
+        {
+          "haslo": "Dania",
+          "hint": "północ"
+        },
+        {
+          "haslo": "Szwecja",
+          "hint": "Skandynawia"
+        },
+        {
+          "haslo": "Norwegia",
+          "hint": "fiordy"
+        },
+        {
+          "haslo": "Finlandia",
+          "hint": "jeziora"
+        },
+        {
+          "haslo": "Islandia",
+          "hint": "lodowce"
+        },
+        {
+          "haslo": "Grecja",
+          "hint": "antyk"
+        },
+        {
+          "haslo": "Turcja",
+          "hint": "granica"
+        },
+        {
+          "haslo": "Ukraina",
+          "hint": "wschód"
+        },
+        {
+          "haslo": "Białoruś",
+          "hint": "lasy"
+        },
+        {
+          "haslo": "Litwa",
+          "hint": "Bałtyk"
+        },
+        {
+          "haslo": "Łotwa",
+          "hint": "wybrzeże"
+        },
+        {
+          "haslo": "Estonia",
+          "hint": "technologie"
+        },
+        {
+          "haslo": "Rosja",
+          "hint": "powierzchnia"
+        },
+        {
+          "haslo": "USA",
+          "hint": "mocarstwo"
+        },
+        {
+          "haslo": "Kanada",
+          "hint": "liść"
+        },
+        {
+          "haslo": "Meksyk",
+          "hint": "kuchnia"
+        },
+        {
+          "haslo": "Brazylia",
+          "hint": "karnawał"
+        },
+        {
+          "haslo": "Argentyna",
+          "hint": "taniec"
+        },
+        {
+          "haslo": "Chile",
+          "hint": "wąskie"
+        },
+        {
+          "haslo": "Peru",
+          "hint": "inkowie"
+        },
+        {
+          "haslo": "Kolumbia",
+          "hint": "kawa"
+        },
+        {
+          "haslo": "Egipt",
+          "hint": "piramidy"
+        },
+        {
+          "haslo": "Maroko",
+          "hint": "pustynia"
+        },
+        {
+          "haslo": "Nigeria",
+          "hint": "Afryka"
+        },
+        {
+          "haslo": "RPA",
+          "hint": "przylądek"
+        },
+        {
+          "haslo": "Kenia",
+          "hint": "safari"
+        },
+        {
+          "haslo": "Algieria",
+          "hint": "północne"
+        },
+        {
+          "haslo": "Japonia",
+          "hint": "wyspy"
+        },
+        {
+          "haslo": "Chiny",
+          "hint": "mur"
+        },
+        {
+          "haslo": "Korea Południowa",
+          "hint": "Azja"
+        },
+        {
+          "haslo": "Indie",
+          "hint": "przyprawy"
+        },
+        {
+          "haslo": "Pakistan",
+          "hint": "region"
+        },
+        {
+          "haslo": "Tajlandia",
+          "hint": "egzotyka"
+        },
+        {
+          "haslo": "Wietnam",
+          "hint": "pola"
+        },
+        {
+          "haslo": "Indonezja",
+          "hint": "archipelag"
+        },
+        {
+          "haslo": "Australia",
+          "hint": "oceania"
+        },
+        {
+          "haslo": "Nowa Zelandia",
+          "hint": "daleko"
+        },
+        {
+          "haslo": "Arabia Saudyjska",
+          "hint": "ropa"
+        },
+        {
+          "haslo": "ZEA",
+          "hint": "pustynne"
+        },
+        {
+          "haslo": "Iran",
+          "hint": "historia"
+        },
+        {
+          "haslo": "Irak",
+          "hint": "rzeki"
+        },
+        {
+          "haslo": "Syria",
+          "hint": "konflikt"
+        },
+        {
+          "haslo": "Izrael",
+          "hint": "morze"
+        },
+        {
+          "haslo": "Jordania",
+          "hint": "skały"
+        },
+        {
+          "haslo": "Katar",
+          "hint": "bogactwo"
+        },
+        {
+          "haslo": "Kuwejt",
+          "hint": "zatoka"
+        },
+        {
+          "haslo": "Oman",
+          "hint": "orient"
+        },
+        {
+          "haslo": "Libia",
+          "hint": "piaski"
+        },
+        {
+          "haslo": "Tunezja",
+          "hint": "wycieczki"
+        },
+        {
+          "haslo": "Sudan",
+          "hint": "nila"
+        },
+        {
+          "haslo": "Etiopia",
+          "hint": "wyżyny"
+        },
+        {
+          "haslo": "Ghana",
+          "hint": "kakao"
+        },
+        {
+          "haslo": "Angola",
+          "hint": "surowce"
+        },
+        {
+          "haslo": "Czarnogóra",
+          "hint": "Bałkany"
+        },
+        {
+          "haslo": "Serbia",
+          "hint": "region"
+        },
+        {
+          "haslo": "Chorwacja",
+          "hint": "adriatyk"
+        },
+        {
+          "haslo": "Słowenia",
+          "hint": "kameralne"
+        }
+      ],
+      "Miasta": [
+        {
+          "haslo": "Warszawa",
+          "hint": "stolica"
+        },
+        {
+          "haslo": "Kraków",
+          "hint": "zamek"
+        },
+        {
+          "haslo": "Łódź",
+          "hint": "fabryki"
+        },
+        {
+          "haslo": "Wrocław",
+          "hint": "mosty"
+        },
+        {
+          "haslo": "Poznań",
+          "hint": "koziołki"
+        },
+        {
+          "haslo": "Gdańsk",
+          "hint": "portowe"
+        },
+        {
+          "haslo": "Szczecin",
+          "hint": "zachodnie"
+        },
+        {
+          "haslo": "Lublin",
+          "hint": "koziołek"
+        },
+        {
+          "haslo": "Katowice",
+          "hint": "kopalnie"
+        },
+        {
+          "haslo": "Białystok",
+          "hint": "podlaskie"
+        },
+        {
+          "haslo": "Berlin",
+          "hint": "mur"
+        },
+        {
+          "haslo": "Paryż",
+          "hint": "miłość"
+        },
+        {
+          "haslo": "Londyn",
+          "hint": "mgła"
+        },
+        {
+          "haslo": "Rzym",
+          "hint": "koloseum"
+        },
+        {
+          "haslo": "Madryt",
+          "hint": "królewskie"
+        },
+        {
+          "haslo": "Barcelona",
+          "hint": "katedra"
+        },
+        {
+          "haslo": "Lizbona",
+          "hint": "ocean"
+        },
+        {
+          "haslo": "Amsterdam",
+          "hint": "kanały"
+        },
+        {
+          "haslo": "Bruksela",
+          "hint": "instytucje"
+        },
+        {
+          "haslo": "Praga",
+          "hint": "most"
+        },
+        {
+          "haslo": "Wiedeń",
+          "hint": "walc"
+        },
+        {
+          "haslo": "Budapeszt",
+          "hint": "rzeka"
+        },
+        {
+          "haslo": "Zurych",
+          "hint": "banki"
+        },
+        {
+          "haslo": "Genewa",
+          "hint": "zegarki"
+        },
+        {
+          "haslo": "Oslo",
+          "hint": "północ"
+        },
+        {
+          "haslo": "Sztokholm",
+          "hint": "woda"
+        },
+        {
+          "haslo": "Helsinki",
+          "hint": "zimno"
+        },
+        {
+          "haslo": "Reykjavik",
+          "hint": "gejzery"
+        },
+        {
+          "haslo": "Ateny",
+          "hint": "ruiny"
+        },
+        {
+          "haslo": "Stambuł",
+          "hint": "orient"
+        },
+        {
+          "haslo": "Nowy Jork",
+          "hint": "drapacze"
+        },
+        {
+          "haslo": "Los Angeles",
+          "hint": "gwiazdy"
+        },
+        {
+          "haslo": "Chicago",
+          "hint": "wiatr"
+        },
+        {
+          "haslo": "Toronto",
+          "hint": "wieża"
+        },
+        {
+          "haslo": "Vancouver",
+          "hint": "przyroda"
+        },
+        {
+          "haslo": "Mexico City",
+          "hint": "korek"
+        },
+        {
+          "haslo": "Rio de Janeiro",
+          "hint": "pomnik"
+        },
+        {
+          "haslo": "Buenos Aires",
+          "hint": "metropolia"
+        },
+        {
+          "haslo": "Sao Paulo",
+          "hint": "beton"
+        },
+        {
+          "haslo": "Lima",
+          "hint": "wybrzeże"
+        },
+        {
+          "haslo": "Sydney",
+          "hint": "opera"
+        },
+        {
+          "haslo": "Melbourne",
+          "hint": "kultura"
+        },
+        {
+          "haslo": "Tokyo",
+          "hint": "neon"
+        },
+        {
+          "haslo": "Osaka",
+          "hint": "kuchnia"
+        },
+        {
+          "haslo": "Seul",
+          "hint": "nowoczesne"
+        },
+        {
+          "haslo": "Pekin",
+          "hint": "historia"
+        },
+        {
+          "haslo": "Szanghaj",
+          "hint": "rozwój"
+        },
+        {
+          "haslo": "Hongkong",
+          "hint": "port"
+        },
+        {
+          "haslo": "Bangkok",
+          "hint": "świątynie"
+        },
+        {
+          "haslo": "Singapur",
+          "hint": "czystość"
+        },
+        {
+          "haslo": "Moskwa",
+          "hint": "plac"
+        },
+        {
+          "haslo": "Kijów",
+          "hint": "miasto"
+        },
+        {
+          "haslo": "Mińsk",
+          "hint": "plac"
+        },
+        {
+          "haslo": "Wilno",
+          "hint": "kościół"
+        },
+        {
+          "haslo": "Ryga",
+          "hint": "starówka"
+        },
+        {
+          "haslo": "Tallin",
+          "hint": "mury"
+        },
+        {
+          "haslo": "Dubaj",
+          "hint": "luksus"
+        },
+        {
+          "haslo": "Abu Zabi",
+          "hint": "pustynia"
+        },
+        {
+          "haslo": "Doha",
+          "hint": "nowoczesność"
+        },
+        {
+          "haslo": "Kair",
+          "hint": "chaos"
+        },
+        {
+          "haslo": "Nairobi",
+          "hint": "przyroda"
+        },
+        {
+          "haslo": "Johannesburg",
+          "hint": "miasto"
+        },
+        {
+          "haslo": "Lagos",
+          "hint": "ludne"
+        },
+        {
+          "haslo": "Casablanca",
+          "hint": "białe"
+        },
+        {
+          "haslo": "Algier",
+          "hint": "port"
+        },
+        {
+          "haslo": "Tunis",
+          "hint": "orient"
+        },
+        {
+          "haslo": "Addis Abeba",
+          "hint": "wysoko"
+        },
+        {
+          "haslo": "Delhi",
+          "hint": "tłum"
+        },
+        {
+          "haslo": "Mumbai",
+          "hint": "kino"
+        },
+        {
+          "haslo": "Bangalore",
+          "hint": "technologia"
+        },
+        {
+          "haslo": "Houston",
+          "hint": "kosmos"
+        },
+        {
+          "haslo": "Miami",
+          "hint": "plaża"
+        },
+        {
+          "haslo": "Boston",
+          "hint": "szkoły"
+        },
+        {
+          "haslo": "San Francisco",
+          "hint": "most"
+        },
+        {
+          "haslo": "Seattle",
+          "hint": "deszcz"
+        },
+        {
+          "haslo": "Denver",
+          "hint": "góry"
+        },
+        {
+          "haslo": "Atlanta",
+          "hint": "południe"
+        },
+        {
+          "haslo": "Dallas",
+          "hint": "kowboje"
+        },
+        {
+          "haslo": "Phoenix",
+          "hint": "słońce"
+        },
+        {
+          "haslo": "Detroit",
+          "hint": "auta"
+        }
+      ],
+      "Przyroda": [
+        {
+          "haslo": "las",
+          "hint": "drzewa"
+        },
+        {
+          "haslo": "góra",
+          "hint": "szczyt"
+        },
+        {
+          "haslo": "rzeka",
+          "hint": "nurt"
+        },
+        {
+          "haslo": "jezioro",
+          "hint": "tafla"
+        },
+        {
+          "haslo": "morze",
+          "hint": "fale"
+        },
+        {
+          "haslo": "ocean",
+          "hint": "głębia"
+        },
+        {
+          "haslo": "wodospad",
+          "hint": "spadek"
+        },
+        {
+          "haslo": "dolina",
+          "hint": "niż"
+        },
+        {
+          "haslo": "łąka",
+          "hint": "kwiaty"
+        },
+        {
+          "haslo": "pustynia",
+          "hint": "sucho"
+        },
+        {
+          "haslo": "drzewo",
+          "hint": "pień"
+        },
+        {
+          "haslo": "kwiat",
+          "hint": "zapach"
+        },
+        {
+          "haslo": "trawa",
+          "hint": "darń"
+        },
+        {
+          "haslo": "skała",
+          "hint": "twarde"
+        },
+        {
+          "haslo": "klif",
+          "hint": "urwisko"
+        },
+        {
+          "haslo": "lodowiec",
+          "hint": "lód"
+        },
+        {
+          "haslo": "tundra",
+          "hint": "północ"
+        },
+        {
+          "haslo": "bagno",
+          "hint": "błoto"
+        },
+        {
+          "haslo": "wyspa",
+          "hint": "ląd"
+        },
+        {
+          "haslo": "wulkan",
+          "hint": "ogień"
+        },
+        {
+          "haslo": "deszcz",
+          "hint": "krople"
+        },
+        {
+          "haslo": "śnieg",
+          "hint": "puch"
+        },
+        {
+          "haslo": "wiatr",
+          "hint": "ruch"
+        },
+        {
+          "haslo": "burza",
+          "hint": "wyładowanie"
+        },
+        {
+          "haslo": "tęcza",
+          "hint": "kolory"
+        },
+        {
+          "haslo": "chmura",
+          "hint": "niebo"
+        },
+        {
+          "haslo": "słońce",
+          "hint": "światło"
+        },
+        {
+          "haslo": "księżyc",
+          "hint": "fazy"
+        },
+        {
+          "haslo": "gwiazda",
+          "hint": "punkt"
+        },
+        {
+          "haslo": "niebo",
+          "hint": "przestrzeń"
+        },
+        {
+          "haslo": "ziemia",
+          "hint": "grunt"
+        },
+        {
+          "haslo": "gleba",
+          "hint": "żyzna"
+        },
+        {
+          "haslo": "piasek",
+          "hint": "drobne"
+        },
+        {
+          "haslo": "kamień",
+          "hint": "ciężkie"
+        },
+        {
+          "haslo": "korzeń",
+          "hint": "podziemie"
+        },
+        {
+          "haslo": "liść",
+          "hint": "blaszka"
+        },
+        {
+          "haslo": "gałąź",
+          "hint": "część"
+        },
+        {
+          "haslo": "las deszczowy",
+          "hint": "wilgoć"
+        },
+        {
+          "haslo": "rafy",
+          "hint": "kolorowe"
+        },
+        {
+          "haslo": "step",
+          "hint": "równina"
+        },
+        {
+          "haslo": "pola",
+          "hint": "uprawy"
+        },
+        {
+          "haslo": "żywopłot",
+          "hint": "płot"
+        },
+        {
+          "haslo": "strumień",
+          "hint": "woda"
+        },
+        {
+          "haslo": "zatoka",
+          "hint": "wcięcie"
+        },
+        {
+          "haslo": "fiord",
+          "hint": "zatoka"
+        },
+        {
+          "haslo": "kanion",
+          "hint": "rozpadlina"
+        },
+        {
+          "haslo": "wydmy",
+          "hint": "piasek"
+        },
+        {
+          "haslo": "polana",
+          "hint": "otwarte"
+        },
+        {
+          "haslo": "skały",
+          "hint": "struktura"
+        },
+        {
+          "haslo": "bagna",
+          "hint": "teren"
+        }
+      ],
+      "Instrumenty muzyczne": [
+        {
+          "haslo": "gitara",
+          "hint": "struny"
+        },
+        {
+          "haslo": "fortepian",
+          "hint": "klawisze"
+        },
+        {
+          "haslo": "skrzypce",
+          "hint": "smyczek"
+        },
+        {
+          "haslo": "wiolonczela",
+          "hint": "pudło"
+        },
+        {
+          "haslo": "trąbka",
+          "hint": "ustnik"
+        },
+        {
+          "haslo": "saksofon",
+          "hint": "klapy"
+        },
+        {
+          "haslo": "flet",
+          "hint": "otwory"
+        },
+        {
+          "haslo": "klarnet",
+          "hint": "stroik"
+        },
+        {
+          "haslo": "perkusja",
+          "hint": "pałki"
+        },
+        {
+          "haslo": "harfa",
+          "hint": "rama"
+        },
+        {
+          "haslo": "akordeon",
+          "hint": "miech"
+        },
+        {
+          "haslo": "organy",
+          "hint": "piszczałki"
+        },
+        {
+          "haslo": "mandolina",
+          "hint": "brzmienie"
+        },
+        {
+          "haslo": "ukulele",
+          "hint": "małe"
+        },
+        {
+          "haslo": "tamburyn",
+          "hint": "talerzyki"
+        },
+        {
+          "haslo": "marakasy",
+          "hint": "grzechotanie"
+        },
+        {
+          "haslo": "tuba",
+          "hint": "niskie"
+        },
+        {
+          "haslo": "obój",
+          "hint": "drewno"
+        },
+        {
+          "haslo": "fagot",
+          "hint": "długie"
+        },
+        {
+          "haslo": "banjo",
+          "hint": "okrągłe"
+        },
+        {
+          "haslo": "ksylofon",
+          "hint": "płytki"
+        },
+        {
+          "haslo": "djembe",
+          "hint": "bęben"
+        },
+        {
+          "haslo": "harmonijka",
+          "hint": "usta"
+        },
+        {
+          "haslo": "syntezator",
+          "hint": "elektroniczne"
+        },
+        {
+          "haslo": "keyboard",
+          "hint": "panel"
+        },
+        {
+          "haslo": "cymbały",
+          "hint": "uderzanie"
+        },
+        {
+          "haslo": "róg",
+          "hint": "naturalne"
+        },
+        {
+          "haslo": "didgeridoo",
+          "hint": "rura"
+        },
+        {
+          "haslo": "bębny",
+          "hint": "membrana"
+        },
+        {
+          "haslo": "saksofon",
+          "hint": "blacha"
+        }
+      ],
+      "Części ciała": [
+        {
+          "haslo": "głowa",
+          "hint": "myślenie"
+        },
+        {
+          "haslo": "ręka",
+          "hint": "trzymanie"
+        },
+        {
+          "haslo": "noga",
+          "hint": "chodzenie"
+        },
+        {
+          "haslo": "oko",
+          "hint": "widzenie"
+        },
+        {
+          "haslo": "ucho",
+          "hint": "słyszenie"
+        },
+        {
+          "haslo": "nos",
+          "hint": "węch"
+        },
+        {
+          "haslo": "usta",
+          "hint": "mówienie"
+        },
+        {
+          "haslo": "zęby",
+          "hint": "gryzienie"
+        },
+        {
+          "haslo": "język",
+          "hint": "smak"
+        },
+        {
+          "haslo": "serce",
+          "hint": "pompowanie"
+        },
+        {
+          "haslo": "płuca",
+          "hint": "oddychanie"
+        },
+        {
+          "haslo": "wątroba",
+          "hint": "filtracja"
+        },
+        {
+          "haslo": "nerki",
+          "hint": "oczyszczanie"
+        },
+        {
+          "haslo": "mózg",
+          "hint": "kontrola"
+        },
+        {
+          "haslo": "kręgosłup",
+          "hint": "podpora"
+        },
+        {
+          "haslo": "ramię",
+          "hint": "bark"
+        },
+        {
+          "haslo": "łokieć",
+          "hint": "zgięcie"
+        },
+        {
+          "haslo": "kolano",
+          "hint": "staw"
+        },
+        {
+          "haslo": "stopa",
+          "hint": "podstawa"
+        },
+        {
+          "haslo": "dłoń",
+          "hint": "chwyt"
+        },
+        {
+          "haslo": "palec",
+          "hint": "dotyk"
+        },
+        {
+          "haslo": "pięta",
+          "hint": "tył"
+        },
+        {
+          "haslo": "biodro",
+          "hint": "miednica"
+        },
+        {
+          "haslo": "szyja",
+          "hint": "łączenie"
+        },
+        {
+          "haslo": "plecy",
+          "hint": "tył"
+        },
+        {
+          "haslo": "skóra",
+          "hint": "powłoka"
+        },
+        {
+          "haslo": "twarz",
+          "hint": "wyraz"
+        },
+        {
+          "haslo": "brzuch",
+          "hint": "trawienie"
+        },
+        {
+          "haslo": "mięśnie",
+          "hint": "siła"
+        },
+        {
+          "haslo": "tętnica",
+          "hint": "przepływ"
+        }
+      ],
+      "Zawody": [
+        {
+          "haslo": "lekarz",
+          "hint": "pacjent"
+        },
+        {
+          "haslo": "pielęgniarka",
+          "hint": "opieka"
+        },
+        {
+          "haslo": "nauczyciel",
+          "hint": "wiedza"
+        },
+        {
+          "haslo": "programista",
+          "hint": "kodowanie"
+        },
+        {
+          "haslo": "piekarz",
+          "hint": "mąka"
+        },
+        {
+          "haslo": "kucharz",
+          "hint": "danie"
+        },
+        {
+          "haslo": "strażak",
+          "hint": "ratunek"
+        },
+        {
+          "haslo": "policjant",
+          "hint": "bezpieczeństwo"
+        },
+        {
+          "haslo": "pilot",
+          "hint": "maszyna"
+        },
+        {
+          "haslo": "kierowca",
+          "hint": "trasa"
+        },
+        {
+          "haslo": "mechanik",
+          "hint": "naprawa"
+        },
+        {
+          "haslo": "elektryk",
+          "hint": "napięcie"
+        },
+        {
+          "haslo": "hydraulik",
+          "hint": "instalacja"
+        },
+        {
+          "haslo": "architekt",
+          "hint": "planowanie"
+        },
+        {
+          "haslo": "prawnik",
+          "hint": "paragraf"
+        },
+        {
+          "haslo": "sędzia",
+          "hint": "wyrok"
+        },
+        {
+          "haslo": "dziennikarz",
+          "hint": "wiadomości"
+        },
+        {
+          "haslo": "aktor",
+          "hint": "odgrywanie"
+        },
+        {
+          "haslo": "muzyk",
+          "hint": "dźwięki"
+        },
+        {
+          "haslo": "artysta",
+          "hint": "tworzenie"
+        },
+        {
+          "haslo": "farmer",
+          "hint": "produkcja"
+        },
+        {
+          "haslo": "rolnik",
+          "hint": "ziemia"
+        },
+        {
+          "haslo": "sprzedawca",
+          "hint": "handel"
+        },
+        {
+          "haslo": "kasjer",
+          "hint": "rachunek"
+        },
+        {
+          "haslo": "fryzjer",
+          "hint": "cięcie"
+        },
+        {
+          "haslo": "dentysta",
+          "hint": "uśmiech"
+        },
+        {
+          "haslo": "weterynarz",
+          "hint": "zwierzaki"
+        },
+        {
+          "haslo": "inżynier",
+          "hint": "konstrukcja"
+        },
+        {
+          "haslo": "taksówkarz",
+          "hint": "przewóz"
+        },
+        {
+          "haslo": "budowlaniec",
+          "hint": "stawianie"
+        },
+        {
+          "haslo": "malarz",
+          "hint": "farba"
+        },
+        {
+          "haslo": "stolarz",
+          "hint": "drewno"
+        },
+        {
+          "haslo": "ślusarz",
+          "hint": "metal"
+        },
+        {
+          "haslo": "krawiec",
+          "hint": "szycie"
+        },
+        {
+          "haslo": "fotograf",
+          "hint": "zdjęcie"
+        },
+        {
+          "haslo": "ratownik",
+          "hint": "pomoc"
+        },
+        {
+          "haslo": "żołnierz",
+          "hint": "obrona"
+        },
+        {
+          "haslo": "listonosz",
+          "hint": "przesyłka"
+        },
+        {
+          "haslo": "barman",
+          "hint": "napoje"
+        },
+        {
+          "haslo": "kelner",
+          "hint": "stolik"
+        },
+        {
+          "haslo": "logistyk",
+          "hint": "organizacja"
+        },
+        {
+          "haslo": "analityk",
+          "hint": "dane"
+        },
+        {
+          "haslo": "menedżer",
+          "hint": "zarządzanie"
+        },
+        {
+          "haslo": "trener",
+          "hint": "sport"
+        },
+        {
+          "haslo": "coach",
+          "hint": "motywacja"
+        },
+        {
+          "haslo": "grafik",
+          "hint": "obraz"
+        },
+        {
+          "haslo": "tłumacz",
+          "hint": "język"
+        },
+        {
+          "haslo": "bibliotekarz",
+          "hint": "książki"
+        },
+        {
+          "haslo": "astronauta",
+          "hint": "orbita"
+        },
+        {
+          "haslo": "projektant",
+          "hint": "wzór"
+        }
+      ],
+      "Sport": [
+        {
+          "haslo": "piłka nożna",
+          "hint": "murawa"
+        },
+        {
+          "haslo": "koszykówka",
+          "hint": "obręcz"
+        },
+        {
+          "haslo": "siatkówka",
+          "hint": "siatka"
+        },
+        {
+          "haslo": "tenis",
+          "hint": "rakieta"
+        },
+        {
+          "haslo": "pływanie",
+          "hint": "akwen"
+        },
+        {
+          "haslo": "bieganie",
+          "hint": "dystans"
+        },
+        {
+          "haslo": "rower",
+          "hint": "pedałowanie"
+        },
+        {
+          "haslo": "piłka ręczna",
+          "hint": "rzut"
+        },
+        {
+          "haslo": "hokej",
+          "hint": "krążek"
+        },
+        {
+          "haslo": "golf",
+          "hint": "dołek"
+        },
+        {
+          "haslo": "boks",
+          "hint": "rękawice"
+        },
+        {
+          "haslo": "karate",
+          "hint": "mata"
+        },
+        {
+          "haslo": "judo",
+          "hint": "chwyt"
+        },
+        {
+          "haslo": "taekwondo",
+          "hint": "walka"
+        },
+        {
+          "haslo": "szachy",
+          "hint": "figury"
+        },
+        {
+          "haslo": "narciarstwo",
+          "hint": "stok"
+        },
+        {
+          "haslo": "snowboard",
+          "hint": "deska"
+        },
+        {
+          "haslo": "lekkoatletyka",
+          "hint": "bieżnia"
+        },
+        {
+          "haslo": "wioślarstwo",
+          "hint": "wiosła"
+        },
+        {
+          "haslo": "surfing",
+          "hint": "fala"
+        },
+        {
+          "haslo": "żeglarstwo",
+          "hint": "wiatr"
+        },
+        {
+          "haslo": "badminton",
+          "hint": "lotka"
+        },
+        {
+          "haslo": "ping pong",
+          "hint": "stół"
+        },
+        {
+          "haslo": "wspinaczka",
+          "hint": "uchwyt"
+        },
+        {
+          "haslo": "triathlon",
+          "hint": "wysiłek"
+        },
+        {
+          "haslo": "rugby",
+          "hint": "kontaktowe"
+        },
+        {
+          "haslo": "baseball",
+          "hint": "kij"
+        },
+        {
+          "haslo": "futsal",
+          "hint": "sala"
+        },
+        {
+          "haslo": "łyżwiarstwo",
+          "hint": "tafla"
+        },
+        {
+          "haslo": "skoki",
+          "hint": "lot"
+        }
+      ],
+      "Pojazdy": [
+        {
+          "haslo": "samochód",
+          "hint": "koła"
+        },
+        {
+          "haslo": "rower",
+          "hint": "rama"
+        },
+        {
+          "haslo": "motocykl",
+          "hint": "silnik"
+        },
+        {
+          "haslo": "autobus",
+          "hint": "pasażerowie"
+        },
+        {
+          "haslo": "tramwaj",
+          "hint": "tory"
+        },
+        {
+          "haslo": "pociąg",
+          "hint": "wagony"
+        },
+        {
+          "haslo": "samolot",
+          "hint": "skrzydła"
+        },
+        {
+          "haslo": "helikopter",
+          "hint": "wirnik"
+        },
+        {
+          "haslo": "statek",
+          "hint": "kadłub"
+        },
+        {
+          "haslo": "łódź",
+          "hint": "wiosła"
+        }
+      ],
+      "Meble": [
+        {
+          "haslo": "krzesło",
+          "hint": "oparcie"
+        },
+        {
+          "haslo": "stół",
+          "hint": "blat"
+        },
+        {
+          "haslo": "łóżko",
+          "hint": "materac"
+        },
+        {
+          "haslo": "kanapa",
+          "hint": "obicie"
+        },
+        {
+          "haslo": "szafa",
+          "hint": "drzwi"
+        },
+        {
+          "haslo": "komoda",
+          "hint": "szuflady"
+        },
+        {
+          "haslo": "biurko",
+          "hint": "praca"
+        },
+        {
+          "haslo": "regał",
+          "hint": "półki"
+        },
+        {
+          "haslo": "fotel",
+          "hint": "siedzisko"
+        },
+        {
+          "haslo": "półka",
+          "hint": "wiszące"
+        }
+      ],
+      "Elektronika": [
+        {
+          "haslo": "telefon",
+          "hint": "ekran"
+        },
+        {
+          "haslo": "laptop",
+          "hint": "przenośne"
+        },
+        {
+          "haslo": "komputer",
+          "hint": "jednostka"
+        },
+        {
+          "haslo": "tablet",
+          "hint": "dotykowe"
+        },
+        {
+          "haslo": "telewizor",
+          "hint": "obraz"
+        },
+        {
+          "haslo": "drukarka",
+          "hint": "papier"
+        },
+        {
+          "haslo": "monitor",
+          "hint": "wyświetlacz"
+        },
+        {
+          "haslo": "kamera",
+          "hint": "nagrywanie"
+        },
+        {
+          "haslo": "głośnik",
+          "hint": "dźwięk"
+        },
+        {
+          "haslo": "słuchawki",
+          "hint": "uszy"
+        }
+      ],
+      "Ubrania": [
+        {
+          "haslo": "koszulka",
+          "hint": "bawełna"
+        },
+        {
+          "haslo": "spodnie",
+          "hint": "nogawki"
+        },
+        {
+          "haslo": "kurtka",
+          "hint": "zamek"
+        },
+        {
+          "haslo": "buty",
+          "hint": "podeszwa"
+        },
+        {
+          "haslo": "czapka",
+          "hint": "daszek"
+        },
+        {
+          "haslo": "skarpetki",
+          "hint": "stopy"
+        },
+        {
+          "haslo": "sweter",
+          "hint": "dzianina"
+        },
+        {
+          "haslo": "sukienka",
+          "hint": "jednoczęściowe"
+        },
+        {
+          "haslo": "szalik",
+          "hint": "owijanie"
+        },
+        {
+          "haslo": "rękawiczki",
+          "hint": "palce"
+        },
+        {
+          "haslo": "bluza",
+          "hint": "kaptur"
+        },
+        {
+          "haslo": "marynarka",
+          "hint": "eleganckie"
+        },
+        {
+          "haslo": "spódnica",
+          "hint": "dół"
+        },
+        {
+          "haslo": "kapelusz",
+          "hint": "rondo"
+        },
+        {
+          "haslo": "garnitur",
+          "hint": "zestaw"
+        },
+        {
+          "haslo": "płaszcz",
+          "hint": "długie"
+        },
+        {
+          "haslo": "klapki",
+          "hint": "letnie"
+        },
+        {
+          "haslo": "jeansy",
+          "hint": "denim"
+        },
+        {
+          "haslo": "legginsy",
+          "hint": "ciasne"
+        },
+        {
+          "haslo": "top",
+          "hint": "krótkie"
+        },
+        {
+          "haslo": "koszula",
+          "hint": "kołnierzyk"
+        },
+        {
+          "haslo": "krawat",
+          "hint": "wiązanie"
+        },
+        {
+          "haslo": "bielizna",
+          "hint": "spód"
+        },
+        {
+          "haslo": "piżama",
+          "hint": "sen"
+        },
+        {
+          "haslo": "kamizelka",
+          "hint": "bezrękawnik"
+        },
+        {
+          "haslo": "okulary",
+          "hint": "oprawki"
+        },
+        {
+          "haslo": "pas",
+          "hint": "klamra"
+        },
+        {
+          "haslo": "buty sportowe",
+          "hint": "aktywność"
+        },
+        {
+          "haslo": "hoodie",
+          "hint": "kangurka"
+        }
+      ]
+    }
+  }
+}
