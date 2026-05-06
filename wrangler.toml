@@ -8,7 +8,7 @@ command = "npm install"
 [[d1_databases]]
 binding = "DB"
 database_name = "impostor_db"
-database_id = "YOUR_D1_DATABASE_ID_HERE"
+database_id = "96ca78b4-32e7-4490-8147-9182320959da"
 preview_database_id = "DB"
 
 [[durable_objects.bindings]]
