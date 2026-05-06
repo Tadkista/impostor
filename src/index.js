@@ -1,5 +1,7 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
+import { sign } from 'hono/jwt';
+import { generateCode } from '../utils/generateCode';
 
 export { Room } from './Room';
 
@@ -7,45 +9,111 @@ const app = new Hono();
 
 app.use('*', cors());
 
+// Basic SHA-256 hashing for passwords since bcrypt doesn't work on edge natively
+async function hashPassword(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 app.get('/', (c) => c.text('Impostor Cloudflare Workers Backend is running!'));
 
-// Handle WebSockets explicitly through the Room Durable Object
 app.get('/ws/:roomId', async (c) => {
   const roomId = c.req.param('roomId');
-  
-  // Create or get the Room Durable Object
   const id = c.env.ROOM_DO.idFromName(roomId);
   const roomObject = c.env.ROOM_DO.get(id);
-  
-  // Forward the request to the Durable Object
   return roomObject.fetch(c.req.raw);
 });
 
-// REST endpoints mapped to Hono
 app.post('/api/rooms/create', async (c) => {
   try {
-    const body = await c.req.json();
-    // Use D1 or KV to register room metadata if needed
-    // const db = c.env.DB;
-    
-    // For now, generate a random 6-char code
     const roomCode = Math.random().toString(36).substring(2, 8).toUpperCase();
-    
-    // In a real scenario, you might initialize the DO state here, 
-    // but the DO is initialized on the first fetch.
     return c.json({ message: 'Room created', roomCode });
   } catch (error) {
     return c.json({ error: error.message }, 500);
   }
 });
 
-// Mock Auth endpoints for structure
 app.post('/api/auth/register', async (c) => {
-  return c.json({ message: 'Register endpoint not fully migrated yet' });
+  try {
+    const { name, nick, password } = await c.req.json();
+    
+    if (!name || !nick || !password) {
+      return c.json({ message: 'All fields are required' }, 400);
+    }
+
+    const existingUser = await c.env.DB.prepare('SELECT id FROM users WHERE name = ?').bind(name).first();
+    if (existingUser) {
+      return c.json({ message: 'User with this name already exists' }, 400);
+    }
+
+    const hashedPassword = await hashPassword(password);
+    
+    let friendCode;
+    let isUnique = false;
+    while (!isUnique) {
+      friendCode = generateCode(6);
+      const existingCode = await c.env.DB.prepare('SELECT id FROM users WHERE friendCode = ?').bind(friendCode).first();
+      if (!existingCode) isUnique = true;
+    }
+
+    const userId = crypto.randomUUID();
+
+    await c.env.DB.prepare(
+      'INSERT INTO users (id, name, nick, password, friendCode) VALUES (?, ?, ?, ?, ?)'
+    ).bind(userId, name, nick, hashedPassword, friendCode).run();
+
+    return c.json({ message: 'User registered successfully', friendCode }, 201);
+  } catch (error) {
+    console.error('Register error:', error);
+    return c.json({ message: 'Server error', error: error.message }, 500);
+  }
 });
 
 app.post('/api/auth/login', async (c) => {
-  return c.json({ message: 'Login endpoint not fully migrated yet' });
+  try {
+    const { name, password } = await c.req.json();
+    
+    if (!name || !password) {
+      return c.json({ message: 'Name and password are required' }, 400);
+    }
+
+    const user = await c.env.DB.prepare('SELECT * FROM users WHERE name = ?').bind(name).first();
+    if (!user) {
+      return c.json({ message: 'Invalid credentials' }, 400);
+    }
+
+    const hashedPassword = await hashPassword(password);
+    if (hashedPassword !== user.password) {
+      return c.json({ message: 'Invalid credentials' }, 400);
+    }
+
+    if (user.isBanned) {
+      return c.json({ message: 'This account has been banned.' }, 403);
+    }
+
+    const secret = c.env.JWT_SECRET || 'fallback_secret';
+    const token = await sign({ userId: user.id, exp: Math.floor(Date.now() / 1000) + 60 * 60 * 24 * 7 }, secret);
+
+    return c.json({
+      token,
+      user: {
+        id: user.id,
+        name: user.name,
+        nick: user.nick,
+        friendCode: user.friendCode,
+        globalPoints: user.globalPoints,
+        totalGamePoints: user.totalGamePoints || 0,
+        role: user.role,
+        isBanned: user.isBanned
+      }
+    }, 200);
+  } catch (error) {
+    console.error('Login error:', error);
+    return c.json({ message: 'Server error', error: error.message }, 500);
+  }
 });
 
 export default {
@@ -53,3 +121,4 @@ export default {
     return app.fetch(request, env, ctx);
   }
 };
+
