@@ -17,4 +17,4 @@ class_name = "Room"
 
 [[migrations]]
 tag = "v1"
-dir = "migrations"
+new_classes = ["Room"]
