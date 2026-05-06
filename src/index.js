@@ -30,7 +30,25 @@ app.get('/ws/:roomId', async (c) => {
 app.post('/api/rooms/create', async (c) => {
   try {
     const roomCode = Math.random().toString(36).substring(2, 8).toUpperCase();
-    return c.json({ message: 'Room created', roomCode });
+    return c.json({ message: 'Room created', room: { code: roomCode } });
+  } catch (error) {
+    return c.json({ error: error.message }, 500);
+  }
+});
+
+// Endpoint required by JoinRoom.jsx to fetch active rooms.
+// Full implementation requires KV or D1 to track active DOs.
+app.get('/api/rooms/available', async (c) => {
+  return c.json([]);
+});
+
+// Endpoint required by JoinRoom.jsx to validate before joining.
+// The actual joining logic is handled entirely by WebSockets in the Game component.
+app.post('/api/rooms/join', async (c) => {
+  try {
+    const { code, nick } = await c.req.json();
+    if (!code) return c.json({ message: 'Room code is required' }, 400);
+    return c.json({ message: 'Ready to join', room: { code } });
   } catch (error) {
     return c.json({ error: error.message }, 500);
   }
