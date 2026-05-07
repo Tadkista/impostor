@@ -3,7 +3,7 @@ import { cors } from 'hono/cors';
 import { sign } from 'hono/jwt';
 import { generateCode } from '../utils/generateCode';
 
-export { Room } from './Room';
+// Export removed: Room class is a Durable Object used only on the Workers side
 
 const app = new Hono();
 
