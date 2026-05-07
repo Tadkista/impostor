@@ -3,7 +3,7 @@ import { cors } from 'hono/cors';
 import { sign } from 'hono/jwt';
 import { generateCode } from '../utils/generateCode';
 
-// Export removed: Room class is a Durable Object used only on the Workers side
+export { Room } from './Room'; // NOTE: Required for Cloudflare Durable Object. Ensure this line is excluded from the frontend bundle (e.g., via a separate entry point or Vite alias).
 
 const app = new Hono();
 
